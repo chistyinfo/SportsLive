@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sports Live</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--Admob for testing-->
+
+    <string name="native_TEST">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Interstial_TEST">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_Testad">cca-app-pub-3940256099942544/6300978111</string>
+
+
+    <!--Admob for income-->
+
+    <string name="Interstial">ca-app-pub-2233261441949271/1368100341</string>
+    <string name="banner_ad">ca-app-pub-2233261441949271/3378263541</string>
+
+
+    <string name="welcome">ধন্যবাদ\nস্পোর্টস লাইভের সাথে থাকার জন্য।</string>
+    <string name="title_activity_main">Sports Live</string>
+
+</resources>

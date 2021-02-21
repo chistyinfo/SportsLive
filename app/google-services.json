@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "211832168394",
+    "firebase_url": "https://sports-live-e1499.firebaseio.com",
+    "project_id": "sports-live-e1499",
+    "storage_bucket": "sports-live-e1499.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211832168394:android:235f8b4684cc14f8",
+        "android_client_info": {
+          "package_name": "greendustbd.screol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211832168394-mtku913gcetn50vbusq2n4sas3ld60a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMlz4rZGEalk4l_VWYGTZDeMX-hxwyglc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
