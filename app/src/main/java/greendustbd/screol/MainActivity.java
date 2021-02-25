@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                                                                     int position, long id) {
                                                 Intent intent = new Intent(MainActivity.this, Youtube.class);
                                                 intent.putExtra("url", urlStrArray[position]);
-                                                MainActivity.this.startActivity(intent);
+//                                                MainActivity.this.startActivity(intent);
 
 
                                             }
