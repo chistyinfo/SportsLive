@@ -22,6 +22,10 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.flaviofaria.kenburnsview.KenBurnsView;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.NativeExpressAdView;
 import com.squareup.picasso.Picasso;
 
 
@@ -59,12 +63,21 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
+
+
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
         con = this;
 
         KenBurnsView kbv = (KenBurnsView) findViewById(R.id.image);
         Picasso.with(con).load("http://fhulel.com/Sports/ban_aus.jpg").into(kbv);
+
+
+
+        AdView mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
 
 //        NativeExpressAdView adView = (NativeExpressAdView)findViewById(R.id.adView);
@@ -84,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                                                                     int position, long id) {
                                                 Intent intent = new Intent(MainActivity.this, Youtube.class);
                                                 intent.putExtra("url", urlStrArray[position]);
-//                                                MainActivity.this.startActivity(intent);
+                                                MainActivity.this.startActivity(intent);
 
 
                                             }
